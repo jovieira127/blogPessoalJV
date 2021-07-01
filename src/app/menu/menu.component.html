@@ -6,11 +6,11 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex align-items-center">
             <li class="nav-item active">
-                <img src="https://www.criatives.com.br/wp-content/uploads/2018/08/modelo-negra-07.jpg"
+                <img src="{{foto}}"
                     alt="Foto do usuario" width="50px" height="50px" class="img-fluid rounded-circle">
             </li>
             <li class="nav-item ps-3">
-                <p class="m-0 fw-bold text-white fs-16">Nome do usuário</p>
+                <p class="m-0 fw-bold text-white fs-16">{{nome}}</p>
             </li>
             <li class="nav-item ps-3">
                 <a href="">
@@ -26,11 +26,9 @@
 
         <ul class="navbar-nav ml-auto mb-2 mb-lg-0 d-flex align-items-center">
             <li class="nav-item ps-3">
-                <a href="">
-                    <p class="m-0 fw-bold text-white fs-16">
+                <a (click) ='sair()' class="m-0 fw-bold text-white fs-16">
                         Sair
                         <i class="fa fa-sign-out" aria-hidden="true"></i>
-                    </p>
                 </a>
                 
             </li>
