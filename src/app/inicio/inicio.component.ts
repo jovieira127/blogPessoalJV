@@ -8,9 +8,11 @@ import { environment } from 'src/environments/environment.prod';
   styleUrls: ['./inicio.component.css']
 })
 export class InicioComponent implements OnInit {
-
+  
+  
   constructor(
     private router: Router
+    
   ) { }
 
   ngOnInit(){
@@ -20,5 +22,7 @@ export class InicioComponent implements OnInit {
       this.router.navigate(['/entrar'])
     }
   }
+
+
 
 }
