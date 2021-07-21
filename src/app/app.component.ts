@@ -10,6 +10,6 @@ export class AppComponent {
   title = 'blogPessoalJV';
 
   constructor(
-    public auth: AuthService
+    public authService: AuthService 
   ){}
 }
