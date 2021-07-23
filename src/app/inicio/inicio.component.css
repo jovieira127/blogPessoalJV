@@ -5,3 +5,8 @@
 .fs-18{
     font-size: 18pt;
 }
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
